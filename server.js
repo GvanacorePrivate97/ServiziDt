@@ -44,7 +44,52 @@ app.get("/static", (req, res) => {
     },
   });
 });
-
+app.get("/static-6", (req, res) => {
+  res.send({
+    fondopmi: {
+      contratti: 2100000000,
+      controparti: 1371871,
+      finanziato: 240000000000,
+      garantito: 162000000000,
+      anno_mese: 202212,
+    },
+    garanzie: {
+      contratti: 5825,
+      controparti: 3204,
+      finanziato: 12000000000,
+      garantito: 12000000000,
+      anno_mese: 202206,
+    },
+    export: {
+      contratti: 3465,
+      controparti: 2262,
+      imp_deliberato: 60000000000,
+      imp_perfezionato: 57000000000,
+      anno_mese: 202206,
+    },
+    gacs: {
+      operazioni: 45,
+      banche_originator: 61,
+      nominale_lordo: 117851036518,
+      garantito: 13745269568,
+      anno_mese: 202302,
+    },
+    green: {
+        "contratti": 8559,
+        "beneficiari": 4297,
+        "finanziato": 19521286607,
+        "garantito": 18275180845,
+        "anno_mese": 202503
+    },
+    primacasa: {
+        "beneficiari": 6470,
+        "mutui": 3937,
+        "finanziato": 123925884289,
+        "garantito": 96564696501,
+        "anno_mese": 202506
+    }
+  });
+});
 app.get("/static-5", (req, res) => {
   res.send({
     fondopmi: {
