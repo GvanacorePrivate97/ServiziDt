@@ -84,7 +84,7 @@ app.get("/static-6", (req, res) => {
     primacasa: {
       beneficiari: 6470,
       mutui: 3937,
-      finanziato: 123925884289,
+      erogato: 123925884289,
       garantito: 96564696501,
       anno_mese: 202506,
     },
