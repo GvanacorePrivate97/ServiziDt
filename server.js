@@ -50,7 +50,7 @@ app.get("/static-6", (req, res) => {
       beneficiari: 4297,
       contratti: 8559,
       finanziato: 19521286607,
-      garantito: 182,
+      garantito: 182000000000,
       anno_mese: 202503,
     },
     fondopmi: {
