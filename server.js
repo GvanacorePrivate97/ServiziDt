@@ -50,7 +50,7 @@ app.get("/static-6", (req, res) => {
       beneficiari: 4297,
       contratti: 8559,
       finanziato: 19521286607,
-      garantito: 182000000000,
+      garantito: 182,
       anno_mese: 202503,
     },
     fondopmi: {
@@ -84,7 +84,7 @@ app.get("/static-6", (req, res) => {
     primacasa: {
       beneficiari: 6470,
       mutui: 3937,
-      erogato: 123925884289,
+      finanziato: 123925884289,
       garantito: 96564696501,
       anno_mese: 202506,
     },
